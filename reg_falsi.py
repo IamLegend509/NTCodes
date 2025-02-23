@@ -36,7 +36,7 @@ def regula_falsi(f, a, b, tolerance=1e-4, max_iter=10):
     return c  # Return last computed value (even if not converged)
 
 # Get user input for equation
-equation = input("Enter equation (e.g., x**3 - 5*x + 3): ")
+equation = input("Enter equation: ")
 tol = float(input("Enter tolerance: "))
 
 # Process and calculate result
